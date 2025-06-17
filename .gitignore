@@ -1,0 +1,12 @@
+# R
+.Rhistory
+.RData
+.Rproj.user
+/renv/library/
+/renv/python/
+
+# macOS
+.DS_Store
+
+# Python cache
+**/__pycache__/
