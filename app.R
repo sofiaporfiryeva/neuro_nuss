@@ -28,7 +28,7 @@ combined_df_clean <- combined_df_clean %>%
   mutate(title = trimws(title)) %>%
   filter(title != "")
 
-title_embeddings <- model$encode(combined_df_clean$title)
+title_embeddings <- readRDS("title_embeddings.rds")
 
 # семантический поиск 
 
